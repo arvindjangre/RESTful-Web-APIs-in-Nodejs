@@ -1,0 +1,9 @@
+Node.js dependency
+
+1. Google Chrome's V8 engine C++
+2. libuv - C++
+
+Llhttp 
+c-ares
+OpenSSL
+Zlib - for fast compression and decompression
