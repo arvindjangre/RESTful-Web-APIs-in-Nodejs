@@ -1,0 +1,8 @@
+The role of this loop is to schedule which operations our only thread should be performing at any given point.
+
+
+step 1. Everything scheduled with setTimeout() or setInterval() will be executed here.
+step 2. Pending OS tasks are executed, check for the callbacks that are ready to be called.
+step 3. Pause the execution and wait for new events to occur
+step 4. Checks if function related to pending timers related to setImmediate() function are ready to be called.
+step 5. Manage the close events.
