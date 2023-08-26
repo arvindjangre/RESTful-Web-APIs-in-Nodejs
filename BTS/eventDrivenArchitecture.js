@@ -9,7 +9,6 @@ eventEmitter.on('connection', () => {
   console.log('Connection successful.');
 })
 
-
 //fire a connection event
 eventEmitter.emit('connection');
 eventEmitter.emit('connections');

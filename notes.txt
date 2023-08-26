@@ -10,3 +10,10 @@ Zlib - for fast compression and decompression
 
 
 what is callback
+
+Event driven architecture:
+      Event Emitter
+            |   - it emits the events
+      Event Listener
+            |   - call the callback
+      Callback functions
