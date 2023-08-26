@@ -40,3 +40,12 @@ Send data in JSON
       'name' : 'john',
       'bonus' : false
 }
+
+
+http status code:
+
+100 - 199 informational response
+200 - 299 success
+300 - 399 redirect
+400 - 499 client error
+500 - 599 server error
