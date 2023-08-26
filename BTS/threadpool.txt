@@ -1,1 +1,9 @@
 ThreadPool
+
+program process:
+  - The program initializes
+  - Require all the modules
+  - Register the call backs
+  - Start the event loop
+
+heavy taks are moved from event loop to thread pool
