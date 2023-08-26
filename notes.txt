@@ -17,3 +17,26 @@ Event driven architecture:
       Event Listener
             |   - call the callback
       Callback functions
+
+
+
+
+========================
+
+What is API:
+
+
+
+get         /user             instead of   /getAllUsers
+post        /user/new                      /createNewUser
+put         /user/12                       /updateUser/12
+delete      /user/12                       /deleteUser/12
+
+
+Send data in JSON
+
+{
+      'id' : 1,
+      'name' : 'john',
+      'bonus' : false
+}
